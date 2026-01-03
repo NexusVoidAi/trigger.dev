@@ -3,14 +3,15 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "trigger.dev": "workspace:*",
-    "prisma": "6.16.0"
+    "prisma": "6.16.0",
+    "trigger.dev": "workspace:*"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "6.16.0",
+    "@prisma/client": "6.16.0",
     "@trigger.dev/build": "workspace:*",
     "@trigger.dev/sdk": "workspace:*",
-    "@prisma/client": "6.16.0",
-    "@prisma/adapter-pg": "6.16.0"
+    "next": "^15.5.9"
   },
   "scripts": {
     "dev": "trigger dev",

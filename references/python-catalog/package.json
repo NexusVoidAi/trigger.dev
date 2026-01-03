@@ -8,8 +8,9 @@
     "install-python-deps": "uv pip sync requirements.txt"
   },
   "dependencies": {
-    "@trigger.dev/sdk": "workspace:*",
     "@trigger.dev/python": "workspace:*",
+    "@trigger.dev/sdk": "workspace:*",
+    "next": "^15.5.9",
     "zod": "3.25.76"
   },
   "devDependencies": {

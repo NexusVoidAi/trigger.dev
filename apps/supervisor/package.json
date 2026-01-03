@@ -17,6 +17,7 @@
     "@kubernetes/client-node": "^1.0.0",
     "@trigger.dev/core": "workspace:*",
     "dockerode": "^4.0.6",
+    "next": "^15.5.9",
     "prom-client": "^15.1.0",
     "socket.io": "4.7.4",
     "std-env": "^3.8.0",

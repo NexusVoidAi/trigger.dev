@@ -7,8 +7,9 @@
     "deploy": "trigger deploy"
   },
   "dependencies": {
+    "@opentelemetry/resources": "2.2.0",
     "@trigger.dev/sdk": "workspace:*",
-    "@opentelemetry/resources": "2.2.0"
+    "next": "^15.5.9"
   },
   "devDependencies": {
     "@types/node": "^20",

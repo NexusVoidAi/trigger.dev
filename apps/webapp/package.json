@@ -161,6 +161,7 @@
     "morgan": "^1.10.0",
     "nanoid": "3.3.8",
     "neverthrow": "^8.2.0",
+    "next": "^15.5.9",
     "non.geist": "^1.0.2",
     "octokit": "^3.2.1",
     "ohash": "^1.1.3",

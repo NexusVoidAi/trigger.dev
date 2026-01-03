@@ -8,6 +8,7 @@
   "dependencies": {
     "@trigger.dev/sdk": "workspace:*",
     "dotenv": "^16.4.5",
+    "next": "^15.5.9",
     "tsx": "^4.0.0"
   },
   "scripts": {
@@ -16,4 +17,3 @@
     "repro": "tsx src/repro.ts"
   }
 }
-

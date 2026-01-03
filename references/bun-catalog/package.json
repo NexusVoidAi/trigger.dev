@@ -7,7 +7,8 @@
     "deploy": "trigger deploy"
   },
   "dependencies": {
-    "@trigger.dev/sdk": "workspace:*"
+    "@trigger.dev/sdk": "workspace:*",
+    "next": "^15.5.9"
   },
   "devDependencies": {
     "@types/bun": "^1.1.6",

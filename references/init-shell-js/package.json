@@ -4,5 +4,8 @@
   "type": "module",
   "devDependencies": {
     "trigger.dev": "workspace:*"
+  },
+  "dependencies": {
+    "next": "^15.5.9"
   }
 }

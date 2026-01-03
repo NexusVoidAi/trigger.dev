@@ -9,13 +9,14 @@
     "@internal/redis": "workspace:*",
     "@internal/tracing": "workspace:*",
     "@trigger.dev/core": "workspace:*",
+    "next": "^15.5.9",
     "pg": "8.15.6",
     "redlock": "5.0.0-beta.2"
   },
   "devDependencies": {
     "@internal/testcontainers": "workspace:*",
-    "rimraf": "6.0.1",
-    "@types/pg": "8.11.14"
+    "@types/pg": "8.11.14",
+    "rimraf": "6.0.1"
   },
   "scripts": {
     "clean": "rimraf dist",

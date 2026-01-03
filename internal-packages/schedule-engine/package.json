@@ -15,13 +15,14 @@
   },
   "dependencies": {
     "@internal/redis": "workspace:*",
-    "@trigger.dev/redis-worker": "workspace:*",
     "@internal/tracing": "workspace:*",
     "@trigger.dev/core": "workspace:*",
     "@trigger.dev/database": "workspace:*",
+    "@trigger.dev/redis-worker": "workspace:*",
     "cron-parser": "^4.9.0",
     "cronstrue": "^2.50.0",
     "nanoid": "3.3.8",
+    "next": "^15.5.9",
     "zod": "3.25.76"
   },
   "devDependencies": {
